@@ -15,78 +15,12 @@
     font-style: italic
 }
 
-.v-navigation-drawer{
-  border-right: 1px solid #111111 !important;
-}
-
-.v-application .primary,
-.v-application .blue.darken-2{
-  background-color: #167a4c !important;
-  border-color: unset !important;
-}
-
-.v-main__wrap{
-  background-color: #fdfdfd;
-}
-
-.v-application .grey.lighten-4,
-.v-application .grey.lighten-3,
-.v-application .blue.darken-3,
-.v-navigation-drawer--is-mobile:not(.v-navigation-drawer--close),
-.v-navigation-drawer--temporary:not(.v-navigation-drawer--close),
-.v-navigation-drawer.primary,
-.v-list.primary{
-  background-color: #fdfdfd !important;
-}
-
-.theme--light.v-divider,
-.theme--dark.v-navigation-drawer .v-divider{
-  border-color: #111111;
-}
-
-.v-application .grey--text.text--darken-1,
-.v-list.primary>.v-list-item,
-.v-application .indigo--text,
-.v-application .primary--text,
-.theme--dark.v-list-item:not(.v-list-item--active):not(.v-list-item--disabled),
-.theme--dark.v-icon,
-.theme--light.v-icon,
-.v-btn__content .theme--light.v-icon,
-.theme--dark.v-subheader,
-.page-header-section .page-edit-shortcuts .v-btn,
-.v-application .grey--text.text--lighten-1{
-  color: #111111 !important;
-}
-
-#root .v-application .overline{
-  font-weight: 300;
-  text-transform: unset;
-  letter-spacing: normal !important;
-}
-
-.v-btn__content .v-icon,
-.btn-animate-edit .v-btn__content .v-icon,
-.v-btn--bottom .v-btn__content .v-icon{
-  color: #fdfdfd !important;
-}
-
-.v-navigation-drawer{
-  border-color: #111111 !important;
-}
-
-.v-list--dense .v-list-item .v-list-item__subtitle,
-.v-list--dense .v-list-item .v-list-item__title,
-.v-list-item--dense .v-list-item__subtitle,
-.v-list-item--dense .v-list-item__title{
-  font-weight: 300 !important;
-}
-
 * {
   font-family: Lausanne;
 }
 
 .v-main .contents {
-  color: mc('grey', '800');
+  color: #111111;
   padding: .5rem 0 50px;
   position: relative;
   background-color: #fdfdfd;
@@ -1321,4 +1255,72 @@
   .page-edit-shortcuts {
     display: none;
   }
+}
+
+// Design von inflagranti
+
+.v-navigation-drawer{
+  border-right: 1px solid #111111 !important;
+}
+
+.v-application .primary,
+.v-application .blue.darken-2{
+  background-color: #167a4c !important;
+  border-color: unset !important;
+}
+
+.v-main__wrap{
+  background-color: #fdfdfd;
+}
+
+.v-application .grey.lighten-4,
+.v-application .grey.lighten-3,
+.v-application .blue.darken-3,
+.v-navigation-drawer--is-mobile:not(.v-navigation-drawer--close),
+.v-navigation-drawer--temporary:not(.v-navigation-drawer--close),
+.v-navigation-drawer.primary,
+.v-list.primary{
+  background-color: #fdfdfd !important;
+}
+
+.theme--light.v-divider,
+.theme--dark.v-navigation-drawer .v-divider{
+  border-color: #111111;
+}
+
+.v-application .grey--text.text--darken-1,
+.v-list.primary>.v-list-item,
+.v-application .indigo--text,
+.v-application .primary--text,
+.theme--dark.v-list-item:not(.v-list-item--active):not(.v-list-item--disabled),
+.theme--dark.v-icon,
+.theme--light.v-icon,
+.v-btn__content .theme--light.v-icon,
+.theme--dark.v-subheader,
+.page-header-section .page-edit-shortcuts .v-btn,
+.v-application .grey--text.text--lighten-1{
+  color: #111111 !important;
+}
+
+#root .v-application .overline{
+  font-weight: 300;
+  text-transform: unset;
+  letter-spacing: normal !important;
+}
+
+.v-btn__content .v-icon,
+.btn-animate-edit .v-btn__content .v-icon,
+.v-btn--bottom .v-btn__content .v-icon{
+  color: #fdfdfd !important;
+}
+
+.v-navigation-drawer{
+  border-color: #111111 !important;
+}
+
+.v-list--dense .v-list-item .v-list-item__subtitle,
+.v-list--dense .v-list-item .v-list-item__title,
+.v-list-item--dense .v-list-item__subtitle,
+.v-list-item--dense .v-list-item__title{
+  font-weight: 300 !important;
 }
