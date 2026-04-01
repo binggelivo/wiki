@@ -13,7 +13,7 @@ const { gte } = require('semver')
 // ----------------------------------------
 
 let WIKI = {
-  IS_DEBUG: process.env.NODE_ENV === 'development',
+  IS_DEBUG: false,
   IS_MASTER: true,
   ROOTPATH: process.cwd(),
   INSTANCE_ID: nanoid(10),
